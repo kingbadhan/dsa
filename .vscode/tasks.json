@@ -1,0 +1,173 @@
+
+
+
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Script",
+//       "type": "shell",
+//       "command": "./run.sh",
+//       "args": ["$(cygpath '${workspaceFolder}/${relativeFile}')", "${inputFile}", "${outputFile}"],
+//       "options": {
+//         "cwd": "${workspaceFolder}"
+//       },
+//       "problemMatcher": [],
+//       "group": "build"
+//     }
+//   ]
+// }
+
+
+
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Script",
+//       "type": "shell",
+//       "command": "./run.sh",
+//       "args": ["${workspaceFolder}/${relativeFile}", "${inputFile}", "${outputFile}"],
+//       "options": {
+//         "cwd": "${workspaceFolder}"
+//       },
+//       "problemMatcher": [],
+//       "group": "build"
+//     }
+//   ]
+// }
+
+
+
+
+
+
+
+
+
+
+
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Script",
+//       "type": "shell",
+//       "command": "./run.sh",
+//       "args": ["${fileDirname}/${file}", "${inputFile}", "${outputFile}"],
+//       "options": {
+//         "cwd": "${workspaceFolder}"
+//       },
+//       "problemMatcher": [],
+//       "group": "build"
+//     }
+//   ]
+// }
+
+
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Script",
+//       "type": "shell",
+//       "command": "./run.sh",
+//       "args": ["${fileDirname}", "${file}", "${inputFile}", "${outputFile}"],
+//       "options": {
+//         "cwd": "${workspaceFolder}"
+//       },
+//       "problemMatcher": [],
+//       "group": "build"
+//     }
+//   ]
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Script",
+//       "type": "shell",
+//       "command": "./run.sh",
+//       "args": ["${LANGUAGE}", "${inputFile}", "${outputFile}", "${scriptFile}"],
+//       "options": {
+//         "cwd": "${workspaceFolder}"
+//       },
+//       "problemMatcher": [],
+//       "group": "build"
+//     }
+//   ]
+// }
+
+
+
+
+
+
+
+
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//   {
+//   "label": "Compile and run",
+//   "type": "shell",
+//   "command": "",
+//   "args": [
+//     "java",
+//     "${relativeFile}",
+//     "<",
+//     "input.txt",
+//     ">",
+//     "output.txt"
+//   ],
+//   "options": {
+//     "shell": {
+//       "executable": "bash"
+//     }
+//   },
+//   "presentation": {
+//     "reveal": "never"
+//   },
+//   "group": {
+//     "kind": "build",
+//     "isDefault": true
+//   },
+//   "problemMatcher": {
+//     "owner": "py",
+//     "fileLocation": [
+//       "relative",
+//       "${workspaceRoot}"
+//     ],
+//     "pattern": {
+//       "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+//       "file": 1,
+//       "line": 2,
+//       "column": 3,
+//       "severity": 4,
+//       "message": 5
+//     }
+//   }
+//   }
+//   ]
+// }
